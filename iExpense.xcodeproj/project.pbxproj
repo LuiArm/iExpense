@@ -12,6 +12,7 @@
 		F6A6BAC42A36D5ED00CD4E92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6A6BAC32A36D5ED00CD4E92 /* Assets.xcassets */; };
 		F6A6BAC72A36D5ED00CD4E92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6A6BAC62A36D5ED00CD4E92 /* Preview Assets.xcassets */; };
 		F6A6BACE2A383BB200CD4E92 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A6BACD2A383BB200CD4E92 /* ExpenseItem.swift */; };
+		F6A6BAD02A397F1A00CD4E92 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A6BACF2A397F1A00CD4E92 /* Expenses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		F6A6BAC32A36D5ED00CD4E92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6A6BAC62A36D5ED00CD4E92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F6A6BACD2A383BB200CD4E92 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		F6A6BACF2A397F1A00CD4E92 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				F6A6BACD2A383BB200CD4E92 /* ExpenseItem.swift */,
+				F6A6BACF2A397F1A00CD4E92 /* Expenses.swift */,
 				F6A6BABF2A36D5EB00CD4E92 /* iExpenseApp.swift */,
 				F6A6BAC12A36D5EB00CD4E92 /* ContentView.swift */,
 				F6A6BAC32A36D5ED00CD4E92 /* Assets.xcassets */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6A6BAD02A397F1A00CD4E92 /* Expenses.swift in Sources */,
 				F6A6BAC22A36D5EB00CD4E92 /* ContentView.swift in Sources */,
 				F6A6BACE2A383BB200CD4E92 /* ExpenseItem.swift in Sources */,
 				F6A6BAC02A36D5EB00CD4E92 /* iExpenseApp.swift in Sources */,
